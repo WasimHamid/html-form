@@ -11,26 +11,29 @@
 <body>
     <div class="container">
         <form name="contact" method="POST" netlify>
-            <p>
-                <label>
-                    Your Name: <input type="text" name="name" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Your Email: <input type="email" name="email" />
-                </label>
-            </p>
-            <p>
-                <label>
-                    Message: <textarea name="message"></textarea>
-                </label>
-            </p>
-            <p>
-                <button type="submit">Send</button>
-            </p>
-        </form>
-    </div>
+    <h3>Contact Form</h3>
+    <h4>Drop me an Email.</h4>
+    <fieldset>
+      <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    
+  </form>
+</div>
 </body>
 
 </html>
