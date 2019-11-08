@@ -23,7 +23,7 @@ body {
 .container {
   max-width: 400px;
   width: 100%;
-  margin: 0 auto;
+  margin:auto;
   position: relative;
 }
 
@@ -39,7 +39,7 @@ body {
 #contact {
   background: #f9f9f9;
   padding: 25px;
-  margin: 150px 0;
+  margin: 40px 4px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -140,4 +140,29 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+#button1 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.35em 1.8em;
+  border: 0.1em solid #ffffff;
+  /* margin: 0 0.3em 0.3em 0; */
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  /* text-decoration: none; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+#button1:hover {
+  color: #000000;
+  background: #4caf50;
+  text-decoration-color: #4caf50;
+}
+
+a {
+  text-decoration: none;
 }
