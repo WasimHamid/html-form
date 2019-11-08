@@ -163,6 +163,15 @@ fieldset {
   text-decoration-color: #4caf50;
 }
 
+@media screen and (max-width: 30em) {
+  #button1 {
+    display: inline-block;
+    width: auto;
+    float: none;
+    background-color: red;
+  }
+}
+
 a {
   text-decoration: none;
 }
