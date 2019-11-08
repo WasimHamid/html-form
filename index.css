@@ -165,10 +165,8 @@ fieldset {
 
 @media screen and (max-width: 30em) {
   #button1 {
-    display: inline-block;
-    width: auto;
-    float: none;
-    background-color: red;
+    background-color: black;
+    padding: 0.10em 1.4em;
   }
 }
 
